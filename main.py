@@ -42,7 +42,7 @@ def start_training(char_name: str, char_class: str) -> str:
     print('Введи одну из команд: '
           'attack — чтобы атаковать противника, '
           'defence — чтобы блокировать атаку противника '
-          'или special — чтобы исполь   зовать свою суперсилу.')
+          'или special — чтобы использовать свою суперсилу.')
     print('Если не хочешь тренироваться, введи команду skip.')
     cmd: str = None
     while cmd != 'skip':
